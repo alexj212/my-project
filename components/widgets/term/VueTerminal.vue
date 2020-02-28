@@ -130,8 +130,9 @@
     background-color: black;
     border: 12px solid #888;
     padding-top: 25px;
-    padding-bottom: 45px;
+    padding-bottom: 65px;
     overflow-y: auto;
+    max-height: calc(100% - 50px);
   }
 
   .termpage-window a {
@@ -169,9 +170,11 @@
     background-color: blue;
     border: 2px solid #888;
     padding-top: 5px;
-    overflow-y: auto;
-    position: absolute;
-    bottom: 50px;
+    position: fixed;
+    bottom: 62px;
+    left: 10px;
+    min-width: 250px;
+    min-height: 32px;
   }
 
   .termpage-status * {
