@@ -123,6 +123,7 @@ export default {
   border: 12px solid #888;
   padding-top: 25px;
   padding-bottom: 65px;
+  padding-left: 5px;
   overflow-y: auto;
   max-height: calc(100% - 50px);
 }
@@ -159,11 +160,17 @@ export default {
   background-color: blue;
   border: 2px solid #888;
   padding-top: 2px;
+  padding-left: 5px;
   position: fixed;
   bottom: 62px;
-  left: 12px;
-  width: calc(100% - 24px);
+  left: 10px;
+  width: calc(100% - 20px);
   min-height: 32px;
+}
+
+aside.v-navigation-drawer--open ~ main.v-content .termpage-status {
+  left: 270px;  
+  width: calc(100% - 280px);
 }
 
 .termpage-status * {
